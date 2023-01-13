@@ -26,7 +26,7 @@ addThreeNums(4, 2, 7);
 // indented 2nd and 3rd line, added ; for proper syntax
 
 // EX 3:
-function makeFreshPesto(){
+function makeFreshPesto() {
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
@@ -41,7 +41,7 @@ makeFreshPesto();
 function average(num1, num2) {
   var sum = num1 + num2;
   var avg = sum / 2;
-  console.log(`the average is: ${avg}.`)
+  console.log(`the average is: ${avg}.`);
 }
 
 average(2,4);
